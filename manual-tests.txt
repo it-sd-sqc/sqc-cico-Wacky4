@@ -61,4 +61,11 @@ Use `./build.sh` to build CiCo and `./run.sh` to run it if using the command lin
 ## Expected results
 * Should display "Developer" for the user name.
 
+# Module 4: Recognition vs. Recall
 
+## Test Steps
+1. Build and run CiCo
+2. Enter 0's into the field until you can't enter anymore and click Update
+
+## Expected results
+* Should display "Developer" as username and "Checked IN" or "Checked OUT" as status
