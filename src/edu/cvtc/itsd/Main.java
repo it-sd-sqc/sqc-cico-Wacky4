@@ -364,5 +364,8 @@ public class Main {
     frame.pack();
     frame.setLocationRelativeTo(null);
     frame.setVisible(true);
+
+    // Change default operation when JFrame is closed
+    frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
   }
 }
