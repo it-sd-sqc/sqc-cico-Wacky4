@@ -69,3 +69,12 @@ Use `./build.sh` to build CiCo and `./run.sh` to run it if using the command lin
 
 ## Expected results
 * Should display "Developer" as username and "Checked IN" or "Checked OUT" as status
+
+# Module 5: UX Consistency and Standards
+
+## Test steps
+1. Build and run CiCo.
+2. Hit the "X" at the top right of the window to close it.
+
+## Expected results
+* The application should also close when the window (JFrame) is closed
