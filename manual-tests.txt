@@ -79,3 +79,16 @@ Use `./build.sh` to build CiCo and `./run.sh` to run it if using the command lin
 ## Expected results
 * The application should also close when the window (JFrame) is closed.
 * Should display "Clean shutdown" in console.
+
+# Module 6 Ticket 2: bhintz4 contribution
+
+## Test steps
+1. Build and run CiCo.
+2. Type in 00000000 and click update.
+3. Click OK button to end timeout.
+4. Click Update on Main panel with no input in the text box.
+5. Error panel will appear.
+
+## Expected results
+* The program will return to the Main panel when the OK button is pressed.
+* All panels will have a neutral color scheme.
